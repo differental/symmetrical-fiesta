@@ -40,6 +40,14 @@ function App() {
         value={address}
         onChange={(e) => setAddress(e.target.value)}
       />
+        <TextField
+        label="Address"
+        variant="outlined"
+        fullWidth
+        margin="normal"
+        value={address}
+        onChange={(e) => setAddress(e.target.value)}
+      />
       <Button variant="contained" color="primary" onClick={fetchBalance}>
         Fetch Balance
       </Button>
